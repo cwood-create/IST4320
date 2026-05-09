@@ -167,7 +167,7 @@ main.mainloop()
 
 ###
 
-# View your databse 
+# View your database 
 import pandas as pd
 pd.read_sql_query('''
     SELECT * FROM orders;
